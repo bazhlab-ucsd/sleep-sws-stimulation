@@ -20,9 +20,12 @@ The `network.cfg` file includes the connectivity information of different brain 
 
 The output files are saved in the out folder with a timestamp in the filename. Each file contains the activity of different neurons at different times during the simulation. The membrane voltage of cortical neurons is saved in the time_cx file. Other neuron types are saved in separate files with their respective names.
 
+
 ### About the model
 
 The computer model used in the study considers computational models implementing effects of neuromodulators to simulate transitions between awake and SWS sleep, and synaptic plasticity to allow the change of synaptic connections due to the training in awake or replay during sleep. 
+
+The default parameters are set to replicate the results for figure 2 in the following publication.
 
 
 ### Please refer to following publication for more details:
